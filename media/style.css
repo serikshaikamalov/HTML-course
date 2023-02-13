@@ -1,0 +1,49 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.left {
+  background-color: #2196f3;
+  padding: 20px;
+}
+
+.main {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+.right {
+  background-color: #4caf50;
+  padding: 20px;
+}
+/*Планшет */
+@media screen and (min-width: 768px) {
+  .layout {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+  }
+  .left {
+    width: 20%;
+  }
+
+  .main {
+    width: 60%;
+  }
+
+  .right {
+    width: 20%;
+  }
+}
+/* Laptop */
+/* @media screen and (min-width: 992px) {
+  .layout {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid green;
+  }
+} */

@@ -1,0 +1,37 @@
+/* .title {
+  color: green;
+}
+.text {
+  font-size: 16px;
+} */
+
+/*
+ Селектор
+ 1) Элементті тэгі арқылы таңдау
+ 2) Элементті тэгі және оның класы арқылы таңдау
+ 3) :firs-child and :last-child
+ 
+ Элементті нақтылап таңдау
+*/
+
+/* p {
+  color: burlywood;
+}
+
+p.text2 {
+  font-size: 20px;
+}
+
+
+ul li:first-child{
+  font-weight: 600;
+}
+
+ul li:last-child{
+  color: green;
+} */
+
+.book{
+  margin: 30px;
+  border: 1px solid #000;
+}
